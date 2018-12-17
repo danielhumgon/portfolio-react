@@ -11,16 +11,18 @@ class NavBar extends Component {
 
             <div className="demo-big-content">
     <Layout>
-        <Header className="header-color2" title="Home" scroll>
+        <Header className="header-color2" title="My Portfolio" scroll>
             <Navigation>
-                <Link to="/about">About</Link>
+                <Link to="/">Home</Link>
+                <Link to="/about">About me</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact</Link> 
             </Navigation>
         </Header>
-        <Drawer title="Home">
+        <Drawer title="My Portfolio">
             <Navigation>
-                <Link to="/about">About</Link>
+                <Link to="/">Home</Link>
+                <Link to="/about">About me</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
