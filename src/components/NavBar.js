@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './main';
 import { Link } from 'react-router-dom';
+import './../App.css';
 
 class NavBar extends Component {
     state = {  }
@@ -10,7 +11,7 @@ class NavBar extends Component {
 
             <div className="demo-big-content">
     <Layout>
-        <Header title="Home" scroll>
+        <Header className="header-color2" title="Home" scroll>
             <Navigation>
                 <Link to="/about">About</Link>
                 <Link to="/portfolio">Portfolio</Link>
