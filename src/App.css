@@ -26,6 +26,10 @@ height: 100%;
 
 }
 
+.projects-grid {
+    display: flex;
+}
+
 .avatar-img {
     height: 230px;
     margin-top: 4em;

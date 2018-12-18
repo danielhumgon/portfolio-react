@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
+
 class Portfolio extends Component {
     constructor(props) { 
         super(props);
@@ -13,36 +14,67 @@ class Portfolio extends Component {
 
         if (this.state.activeTab === 0) {
             return (
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px',
-                    background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover' }}>
-                    WeatherApp</CardTitle>
-                    <CardText>
+                <div  className="projects-grid">
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{height: '176px',
+                    background: 'url(https://danielhumgon.github.io/Portfolio/images/portfolio/port1.jpeg) center / cover' }}>
+                    </CardTitle>
+                    <CardText style={{fontWeight: 'bold', color: 'black'}}>
                     Weather App Created with React.js and Redux 
                     </CardText>
                     <CardActions border>
+                        <a href="https://github.com/danielhumgon" rel="noopener noreferrer" target="_blank">
                         <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
+                        </a>
+                        <a href="https://weather-app-178.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                         <Button colored>Heroku</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
                     </CardMenu>
                 </Card>
+
+               
+
+                 
+                </div>
+                
             )
         } else if(this.state.activeTab === 1) {
             return (
-                <div>
-                    <h1>This is Bootstrap</h1>
-                </div> 
+
+                <div  className="projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{height: '176px',
+                background: 'url(http://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social.png) center / cover' }}>
+                </CardTitle>
+                <CardText style={{fontWeight: 'bold', color: 'black'}}>
+                Portfolio Page created using HTML5, CSS3, JavaScript and Bootstrap 4 
+                </CardText>
+                <CardActions border>
+                    <a href="https://danielhumgon.github.io/Portfolio/" rel="noopener noreferrer" target="_blank">
+                    <Button colored>Web Page</Button>
+                    </a>
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu>
+            </Card>
+
+           
+
+             
+            </div>
+                
             )
-        } else if(this.state.activeTab === 2) {
+        } /* else if(this.state.activeTab === 2) {
             return (
                 <div>
                     <h1>This is JavaScript</h1>
                 </div> 
             )
-     }
+     }*/
 
     }
 
@@ -54,11 +86,11 @@ class Portfolio extends Component {
                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                 <Tab>React</Tab>
                 <Tab>Bootstrap</Tab>
-                <Tab>JavaScript</Tab>
+                {/*<Tab>JavaScript</Tab>*/}
                </Tabs> 
 
-               <section className="portfolio-grid">
-                    <Grid className="projects-grid">
+               
+                    <Grid>
                         <Cell col={12}>
                             <div className="content">
                                 {this.toggleCategories()}
@@ -66,7 +98,7 @@ class Portfolio extends Component {
                         </Cell>
                     </Grid>
                     
-               </section>
+               
             </div>
             
         );

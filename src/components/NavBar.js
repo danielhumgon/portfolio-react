@@ -14,16 +14,16 @@ class NavBar extends Component {
         <Header className="header-color2" title="My Portfolio" scroll>
             <Navigation>
                 <Link to="/">Home</Link>
-                <Link to="/about">About me</Link>
                 <Link to="/portfolio">Portfolio</Link>
+                <Link to="/about">About me</Link>
                 <Link to="/contact">Contact</Link> 
             </Navigation>
         </Header>
         <Drawer title="My Portfolio">
             <Navigation>
                 <Link to="/">Home</Link>
-                <Link to="/about">About me</Link>
                 <Link to="/portfolio">Portfolio</Link>
+                <Link to="/about">About me</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
@@ -33,6 +33,7 @@ class NavBar extends Component {
         </Content>
     </Layout>
 </div>
+
             
         );
     }
