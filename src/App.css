@@ -153,7 +153,7 @@ height: 100%;
 /* about css*/
 
 .about-grid h2 {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .about-grid h4 {
@@ -170,7 +170,8 @@ height: 100%;
 }
 
 .about-grid p {
-    
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15.5px;
 }
 
 .left-side-div{
@@ -179,6 +180,7 @@ height: 100%;
 }
 
 .about-img {
+    padding-top: 1.5em;
     height: 200px;
     border-radius: 50%;
     border-style: solid;
@@ -190,7 +192,67 @@ height: 100%;
 .about-right-col {
     background: #27221F;
     color: white;
+    padding: 2em;
+
 }
 
+.about-right-col h2 {
+    padding-top: 0;
+    
+}
+
+.about-right-col hr {
+    border-top: 3px solid #e22947; 
+    width: 100%;
+    
+}
 
 /* about css*/
+
+/* education component css*/
+
+.education-grid h4 {
+    margin-top: 0px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.education-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15.5px;
+    
+}
+
+/* education component css*/
+
+
+/* experience component css*/
+
+.experience-grid h4 {
+    margin-top: 0px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.experience-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15.5px;
+    
+}
+
+/* experience component css*/
+
+/* skills component css*/
+
+
+.skills-cell-div {
+    display: flex;
+
+}
+
+.progress-bar {
+    margin: auto;
+    width: 75%;
+}
+
+/* skills component css*/

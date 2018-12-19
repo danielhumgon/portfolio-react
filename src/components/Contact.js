@@ -44,7 +44,7 @@ class Contact extends Component {
                         <ListItem>
                             <ListItemContent className="list-item-content">
                             <i className="fa fa-phone-square" aria-hidden="true"/>
-                             (+58)412-119-1535
+                             (+58) 412-119-1535
                             </ListItemContent>
                         </ListItem>
                         

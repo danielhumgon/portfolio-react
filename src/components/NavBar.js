@@ -11,17 +11,17 @@ class NavBar extends Component {
 
             <div className="demo-big-content">
     <Layout>
-        <Header className="header-color2" title="My Portfolio" scroll>
+        <Header className="header-color2" title={<Link style={{textDecoration: 'none', color: 'white'}}
+         to="/">Home</Link>} scroll>
             <Navigation>
-                <Link to="/">Home</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/about">About me</Link>
                 <Link to="/contact">Contact</Link> 
             </Navigation>
         </Header>
-        <Drawer title="My Portfolio">
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'gray'}}
+         to="/">Home</Link>}>
             <Navigation>
-                <Link to="/">Home</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/about">About me</Link>
                 <Link to="/contact">Contact</Link>
