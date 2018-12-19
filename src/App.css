@@ -147,7 +147,50 @@ height: 100%;
     font-family: 'Anton', sans-serif;
 }
 
-
-
-
 /* contact css*/
+
+
+/* about css*/
+
+.about-grid h2 {
+    padding-top: 2em;
+}
+
+.about-grid h4 {
+    color: gray;
+}
+
+.about-grid h5 {
+    color: gray;
+}
+
+.about-grid hr {
+    border-top: 3px solid #833fb2;
+    width: 50%;
+}
+
+.about-grid p {
+    
+}
+
+.left-side-div{
+    text-align: center;
+
+}
+
+.about-img {
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+}
+
+.about-right-col {
+    background: #27221F;
+    color: white;
+}
+
+
+/* about css*/
