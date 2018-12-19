@@ -83,7 +83,6 @@ height: 100%;
 
 .contact-body {
     margin: auto;
-    background: gray;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -99,20 +98,53 @@ height: 100%;
     height: 500px;
     background: white;
     color: black;
-    border: 2px solid red;
     margin-bottom: 20px;
 
 
 }
 
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid h4 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    width: 75%;
+    margin: auto;
+    padding-top: 1em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
 .contact-img {
-    height: 230px;
-    margin-top: 4em;
+    height: 200px;
+    margin-top: 1.5em;
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: white;
 
+}
+
+.contact-list i {
+    font-size: 65px;
+    padding-right: 5rem;
+
+}
+
+.list-item-content {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
 }
 
 
