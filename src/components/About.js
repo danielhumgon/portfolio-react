@@ -23,9 +23,13 @@ class About extends Component {
                         <h2>Daniel Gonzalez</h2>
                         <h4>Web Developer</h4>
                         <hr />
-                        <p>Lorem Ipsum is simply dummy text of the printing 
-                           and typesetting industry. Lorem Ipsum has been the 
-                           industry's standard dummy text ever since the 1500s
+                        <p>I'm Daniel Gonzalez, from Venezuela, i'm an experienced, 
+                           detailed-oriented, Front-End Web Developer. I have three 
+                           years of hands-on experience efficiently coding websites 
+                           and applications using modern HTML5, CSS3, React.js and 
+                           JavaScript. This has allowed me to deliver great work to 
+                           all of my employers, including those I've worked for on a 
+                           project basis.
                         </p>
                         <hr />
                         <h5>Email</h5>
@@ -43,7 +47,7 @@ class About extends Component {
                             startYear={2010} 
                             endYear={2015}
                             schoolName={"Universidad Nacional Experimental de Guayana"}
-                            schoolDescription={"Universidad Nacional Experimental de Guayana"}
+                            schoolDescription={"Bachelor of Computer Science"}
                              />
                              <hr />
                         
@@ -52,14 +56,14 @@ class About extends Component {
                             <Experience 
                             startYear={2015} 
                             endYear={2016}
-                            jobName={"First Job"}
-                            jobDescription={"Lorem Ipsum Dolor"}
+                            jobName={"Freelance Front-end Web Deveoper | App Globals, Bogota,Col"}
+                            jobDescription={"Updated and streamlined existing code to improve site performance and Utilized JavaScript and HTML 5 techniques, frameworks, and libraries. "}
                              />
                              <Experience 
                             startYear={2016} 
                             endYear={2017}
-                            jobName={"Second Job"}
-                            jobDescription={"Lorem Ipsum Dolor"}
+                            jobName={"Freelance Front-end Web Deveoper | App Globals, Bogota,Col"}
+                            jobDescription={"Translated designs to front-end code, determined developer requirements and specifications, and worked with cross-functional team to define and develop product roadmaps."}
                              />
                              <hr />
                         
