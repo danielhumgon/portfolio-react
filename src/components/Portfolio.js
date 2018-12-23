@@ -11,11 +11,11 @@ class Portfolio extends Component {
      }
 
      toggleCategories() {
-
+        {/*React Projects */}
         if (this.state.activeTab === 0) {
             return (
                 <div  className="projects-grid">
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{height: '176px',
                     background: 'url(https://danielhumgon.github.io/Portfolio/images/portfolio/port1.jpeg) center / cover' }}>
                     </CardTitle>
@@ -23,11 +23,31 @@ class Portfolio extends Component {
                     Weather App Created with React.js and Redux 
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/danielhumgon" rel="noopener noreferrer" target="_blank">
+                        <a href="https://github.com/danielhumgon/WeatherApp" rel="noopener noreferrer" target="_blank">
                         <Button colored>Github</Button>
                         </a>
                         <a href="https://weather-app-178.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                         <Button colored>Heroku</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{height: '176px',
+                    background: 'url(https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/firebase.jpg) center / cover' }}>
+                    </CardTitle>
+                    <CardText style={{fontWeight: 'bold', color: 'black'}}>
+                    Food App Created with React.js and Firebase 
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/danielhumgon/food-app" rel="noopener noreferrer" target="_blank">
+                        <Button colored>Github</Button>
+                        </a>
+                        <a href="https://food-app-80da4.firebaseapp.com/" rel="noopener noreferrer" target="_blank">
+                        <Button colored>Live Demo</Button>
                         </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
