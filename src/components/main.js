@@ -5,14 +5,18 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 
+const baseUrl = process.env.PUBLIC_URL;
+
 const Main = () => (
     <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path={baseUrl + "/"} component={LandingPage} />
+        <Route path={baseUrl + "/about"} component={About} />
+        <Route path={baseUrl + "/portfolio"} component={Portfolio} />
+        <Route path={baseUrl + "/contact"} component={Contact} />
     </Switch>
     
 );
+
+
 
 export default Main;
