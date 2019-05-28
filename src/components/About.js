@@ -47,7 +47,7 @@ class About extends Component {
                             startYear={2010} 
                             endYear={2015}
                             schoolName={"Universidad Nacional Experimental de Guayana"}
-                            schoolDescription={"Bachelor of Computer Science"}
+                            schoolDescription={"Bachelor's Degree in Computer Science"}
                              />
                              <hr />
                         
@@ -56,15 +56,28 @@ class About extends Component {
                             <Experience 
                             startYear={2015} 
                             endYear={2016}
-                            jobName={"Freelance Front-end Web Deveoper | App Globals, Bogota,Col"}
-                            jobDescription={"Updated and streamlined existing code to improve site performance and Utilized JavaScript and HTML 5 techniques, frameworks, and libraries. "}
+                            jobName={"Freelance Front-end Web Developer | App Globals, Bogota,Col"}
+                            jobDescription={"Creating modular, responsive templates using modern CSS techniques and JavaScript libraries."}
                              />
                              <Experience 
                             startYear={2016} 
                             endYear={2017}
-                            jobName={"Freelance Front-end Web Deveoper | App Globals, Bogota,Col"}
+                            jobName={"Freelance Front-end Web Developer | iMediaBay, California,USA"}
                             jobDescription={"Translated designs to front-end code, determined developer requirements and specifications, and worked with cross-functional team to define and develop product roadmaps."}
                              />
+                            <Experience 
+                            startYear={2018} 
+                            endYear={2019}
+                            jobName={"Freelance Front-end Web Developer | Zuluaga Media Inc, Toronto,CA"}
+                            jobDescription={"Designing and implementing HTML email templates and newsletters for marketing campaigns."}
+                             />
+                             <Experience 
+                            startYear={2018} 
+                            endYear={2019}
+                            jobName={"Freelance Front-end Web Developer | Hill Tribe Solutions, California,USA"}
+                            jobDescription={"Building stable and maintainable codebases using React"}
+                             />
+                             
                              <hr />
                         
                         <h2>Skills</h2>
@@ -78,7 +91,7 @@ class About extends Component {
                             <Skills
                             skill={"JavaScript"} progress={75} />
                             <Skills
-                            skill={"React"} progress={69} />
+                            skill={"React"} progress={80} />
                             <Skills
                             skill={"jQuery"} progress={70} />
                             <Skills
